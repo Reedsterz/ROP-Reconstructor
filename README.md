@@ -1,6 +1,6 @@
 # ROP-Reconstructor
 
-This repository contains the code for Dynamic Forensic Techniques forRebuilding Code Reuse Attacks Payload.
+This repository contains the code for Dynamic Forensic Techniques for Rebuilding Code Reuse Attacks Payload.
 
 For the full details, please refer to the following([paper](./paper.pdf)).
 
