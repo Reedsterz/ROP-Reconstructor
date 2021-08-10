@@ -16,7 +16,7 @@ For the full details, please refer to the following([paper](./paper.pdf)).
 #### Build tool inside source directory
 `make obj-intel64/PinTool.so`
 
-### Run tool on /bin/ls executable
+### Run tool on executable
 `${PIN_ROOT}/pin -t obj-intel64/PinTool.so -o <output> -- <program>`
 
 ### ROP-Reconstructor
