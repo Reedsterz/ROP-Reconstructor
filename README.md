@@ -10,14 +10,14 @@ For the full details, please refer to the following([paper](./paper.pdf)).
 
 ## How to run
 
-# Export PIN_ROOT environment variable
+### Export PIN_ROOT environment variable
 `export PIN_ROOT=./pintool/pin`
 
-# Build tool inside source directory
+#### Build tool inside source directory
 `make obj-intel64/PinTool.so`
 
-# Run tool on /bin/ls executable
+### Run tool on /bin/ls executable
 `${PIN_ROOT}/pin -t obj-intel64/PinTool.so -o <output> -- <program>`
 
-# ROP-Reconstructor
+### ROP-Reconstructor
 `python ROP-Reconstructor.py -r <path to ROPGadget output> -f <objdump output> -i <Pintool output>`
